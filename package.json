@@ -1,0 +1,21 @@
+{
+  "name": "developer-website",
+  "version": "1.0.0",
+  "description": "This is a developer website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js, hbs"
+  },
+  "author": "Imran",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "jquery": "^3.5.1",
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.6",
+    "validator": "^13.5.2"
+  }
+}
